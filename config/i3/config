@@ -81,7 +81,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id "sh ~/.local/bin/brightness up"
 bindsym XF86MonBrightnessDown exec --no-startup-id "sh ~/.local/bin/brightness down"
 
 # Start Applications
-bindsym $mod+F1 exec firefox
+bindsym $mod+F1 exec brave
 bindsym $mod+F2 exec discord
 bindsym $mod+F3 exec thunar
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
