@@ -1,0 +1,118 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.useSystemClipboard": true,
+  "vim.leader": "<space>",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["<S-j>"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["<S-k>"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    },
+    {
+      "before": ["<A-j>"],
+      "commands": [":m .+1<CR>=="]
+    },
+    {
+      "before": ["<A-k>"],
+      "commands": [":m .-2<CR>=="]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["gr"],
+      "commands": ["editor.action.rename"]
+    },
+    {
+      "before": ["<leader>", "g", "d"],
+      "commands": ["git.openChange"]
+    },
+    {
+      "before": ["<leader>", "g", "d"],
+      "commands": ["git.timeline.openDiff"]
+    },
+    {
+      "before": ["<leader>", "s", "c"],
+      "commands": ["workbench.action.selectTheme"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["gd"],
+      "commands": ["editor.action.revealDefinition"]
+    },
+    {
+      "before": ["<C->"],
+      "commands": ["workbench.action.terminal.toggleTerminal"]
+    },
+    {
+      "before": ["<S-k>"],
+      "commands": ["editor.action.showHover"]
+    },
+    {
+      "before": ["<S-l>"],
+      "commands": [":tabn"]
+    },
+    {
+      "before": ["<S-h>"],
+      "commands": [":tabp"]
+    },
+    {
+      "before": ["<C-j>"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+      "before": ["<C-k>"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+      "before": ["<C-h>"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["<C-l>"],
+      "commands": ["workbench.action.focusRightGroup"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-w>": false
+  },
+  "window.menuBarVisibility": "toggle",
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "fira code nerd font",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontLigatures": true,
+  "editor.inlineSuggest.enabled": true,
+  "terminal.integrated.fontFamily": "fira code",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
